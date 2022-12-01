@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="App__container">
-        <video eo src={video} className="App__video" autoplay='' loop></video>
+        <video src={video} className="App__video"autoPlay loop muted></video>
         <section className='main'>
           <h1 className='main__h1'>Giphy Search App</h1>
           <InputSubmit />
