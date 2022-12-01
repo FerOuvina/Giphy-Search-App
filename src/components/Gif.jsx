@@ -1,4 +1,5 @@
 import React from "react";
+import '../stylesheets/Gif.css';
 
 function Gif({title, url}) {
   return (

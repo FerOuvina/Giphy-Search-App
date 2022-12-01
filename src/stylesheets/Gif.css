@@ -1,0 +1,25 @@
+:root {
+  --green: #7e9680;
+  --violet: #79616f;
+  --purple: #ae6378;
+  --red: #d87f81;
+  --orange: #eab595;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  margin: 0.5rem 0;
+  color: whitesmoke;
+}
+
+img {
+  margin: 0 0 1rem 0;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 13px 3px rgba(128, 125, 125, 0.574);
+}

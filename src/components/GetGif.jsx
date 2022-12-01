@@ -1,7 +1,7 @@
 const apiKey = 'hFv8OeXUU3hh5g3av7nTj9gMJZxGgcmL';
 
 function getGifs({keyword} = {}) {
-  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=5&offset=0&rating=r&lang=en`;
+  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=10&offset=0&rating=r&lang=en`;
 
   return (
     fetch(apiURL)
